@@ -14,7 +14,7 @@ var PromptContainer = React.createClass({
 
   handleUpdateUser: function (e) {
     this.setState({
-      username: e.target.value
+      username: e.target.value 
     })
   },
   handleSubmitUser: function(e) {
